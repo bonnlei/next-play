@@ -4,7 +4,7 @@
 import Link from "next/link";
 import React from "react";
 
-import { Card, CardContent } from "@/components/ui/card";
+import { CardContent } from "@/components/ui/card";
 import { readdir } from "fs/promises";
 
 interface DataItem {
